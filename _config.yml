@@ -22,3 +22,5 @@ author:
 version:             1.0.0
 
 remote_theme : poole/lanyon
+
+theme: jekyll-theme-midnight
