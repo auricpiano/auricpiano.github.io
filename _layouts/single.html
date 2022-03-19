@@ -14,6 +14,15 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<script src="https://utteranc.es/client.js"
+  repo="main"
+  issue-term="url"
+  label="comment"
+  theme="github-dark"
+  crossorigin="anonymous"
+  async>
+</script>
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -62,15 +71,6 @@ layout: default
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
-
-    <script src="https://utteranc.es/client.js"
-      repo="main"
-      issue-term="url"
-      label="comment"
-      theme="github-dark"
-      crossorigin="anonymous"
-      async>
-    </script>
 
   </article>
 
