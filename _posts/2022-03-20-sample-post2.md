@@ -1,7 +1,6 @@
 ---
 # layout: posts
 title: "Welcome to Jekyll2!"
-categories: cats
 tags: vue python
 ---
 
