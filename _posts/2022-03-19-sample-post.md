@@ -1,6 +1,7 @@
 ---
 # layout: posts
 title: "Welcome to Jekyll!"
+category: docs
 tags: vue javascript
 ---
 
