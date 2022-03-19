@@ -42,8 +42,10 @@ tags: [jekyll, github-page]
 6. Test locally
 
     On your root path of jekyll project, run
-    > bundle install<br>
-    > bundle exec jekyll s
+    ```sh
+    bundle install
+    bundle exec jekyll s
+    ```
     and access localhost:4000
 
 7. Push files to your remote repository
